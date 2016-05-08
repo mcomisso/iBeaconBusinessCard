@@ -1,0 +1,66 @@
+{
+    "formatVersion": 1,
+    "passTypeIdentifier": "pass.com.presentation.card",
+    "serialNumber": "1234567890",
+    "logoText": "Matteo Comisso",
+    "teamIdentifier": "***********",
+    "organizationName": "Matteo Comisso",
+    "description": "Matteo Comisso",
+    "labelColor": "rgb(206, 215, 219)",
+    "foregroundColor": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(95, 125, 138)",
+    "beacons": [{
+        "proximityUUID": "13C186EC-E30F-43FF-9A8A-0EAF551ED517",
+        "relevantText": "Matteo salutes you 👋"
+    }],
+    "barcode": {
+      "altText" : "http://mcomisso.xyz/about",
+      "format" : "PKBarcodeFormatQR",
+      "message" : "http://mcomisso.xyz/about",
+      "messageEncoding" : "iso-8859-1"
+    },
+    "generic": {
+        "primaryFields": [{
+            "key": "work_desc",
+            "label": "",
+            "value": "iOS/web Developer",
+        }],
+        "secondaryFields": [{
+            "key": "website",
+            "label": "Website",
+            "value": "http://mcomisso.xyz",
+        }],
+        "auxiliaryFields": [{
+            "key": "email",
+            "label": "email",
+            "value": "matteo.comisso@me.com"
+        }, {
+            "key": "twitter",
+            "label": "Twitter",
+            "value": "@teomatteo89"
+        }],
+        "backFields": [{
+            "key": "name_back",
+            "label": "whoami",
+            "value": "Matteo Comisso"
+        }, {
+            "key": "email_back",
+            "label": "reply",
+            "value": "matteo.comisso@me.com"
+        }, {
+            "key": "website_back",
+            "label": "Website",
+            "value": "http://mcomisso.xyz/about",
+            "dataDetectorTypes": [
+                "PKDataDetectorTypeLink"
+            ]
+        }, {
+            "key": "location_back",
+            "label": "Where?",
+            "value": "Venice, Italy",
+            "dataDetectorTypes": [
+                "PKDataDetectorTypeAddress"
+            ]
+        }]
+    }
+}
